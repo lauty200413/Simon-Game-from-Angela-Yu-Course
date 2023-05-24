@@ -142,7 +142,7 @@ count = 0;
 
 
 function victory(){
-  $("h1").text("GANASTE CAPO");
+  $("h1").addClass("hide");
   $(".container").addClass("hide");
   $("img").removeClass("hide");
 
