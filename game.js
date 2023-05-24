@@ -99,7 +99,7 @@ function checkAnswer(currentLevel) {
       
       count++;
 
-      if (count === 7) {
+      if (count === 5) {
         victory();
       }else {
 
