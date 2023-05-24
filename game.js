@@ -142,10 +142,9 @@ count = 0;
 
 
 function victory(){
-  $("h1").addClass("hide");
+  $("h1").text("GANASTE CAPO");
   $(".container").addClass("hide");
   $("img").removeClass("hide");
 
   playSound("victory");
-  alert("GANASTE CAPO!");
 }
