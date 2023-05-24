@@ -147,4 +147,5 @@ function victory(){
   $("img").removeClass("hide");
 
   playSound("victory");
+  alert("GANASTE CAPO!");
 }
