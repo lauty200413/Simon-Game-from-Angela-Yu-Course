@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+
+.button {
+  box-shadow: inset 0 1px 0 0 #a6e5d1;
+  background: linear-gradient(to bottom, #4ecca3 5%, #368e72 100%);
+  background-color: #4ecca3;
+  border-radius: 3px;
+  border: 1px solid #276651;
+  display: inline-block;
+  cursor: pointer;
+  color: #E7E7E6;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 2px 0 #2e2e2e;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #368e72 5%, #4ecca3 100%);
+  background-color: #368e72;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+
+.pantalla-completa{
+  height: 600px;
+  width: 400px;
+}
+
+.hide {
+  display: none;
+}
+
+
